@@ -93,8 +93,8 @@ repo_url: https://github.com/Andre601/mkdocs-template
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
 nav:
-  - Welcome: index.md
-  - Findability: findability.md
+  - Home: index.md
+  - FAIRsoft Indicators: findability.md
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
