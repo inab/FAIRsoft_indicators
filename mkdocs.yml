@@ -27,7 +27,7 @@
 # | - https://www.mkdocs.org/user-guide/configuration/#site_url                                            |
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
-site_name: FAIRsoft
+site_name: FAIRsoft indicators
 site_description: 'FAIR indicators for Research Software'
 site_author: 'evamart'
 #site_url: 'https://www.andre601.ch/mkdocs-template' # Uncomment to set a canonical URL
