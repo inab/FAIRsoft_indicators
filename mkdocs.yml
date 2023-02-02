@@ -27,9 +27,9 @@
 # | - https://www.mkdocs.org/user-guide/configuration/#site_url                                            |
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
-site_name: MkDocs Template
-site_description: 'A template for future MkDocs wikis'
-site_author: 'Andre_601'
+site_name: FAIRsoft
+site_description: 'FAIR indicators for Research Software'
+site_author: 'evamart'
 #site_url: 'https://www.andre601.ch/mkdocs-template' # Uncomment to set a canonical URL
 
 # +--------------------------------------------------------------------------------------------------------+
@@ -75,8 +75,8 @@ docs_dir: docs/
 # | - https://www.mkdocs.org/user-guide/configuration/#edit_uri                                            |
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
-repo_name: Andre601/mkdocs-template
-repo_url: https://github.com/Andre601/mkdocs-template
+repo_name: evamart/mkdocs-template
+repo_url: https://github.com/evamart/mkdocs-template
 #edit_uri: tree/master/docs # Uncomment to define a different URI/URL for the "edit" option
 
 # +--------------------------------------------------------------------------------------------------------+
@@ -93,8 +93,11 @@ repo_url: https://github.com/Andre601/mkdocs-template
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
 nav:
-  - Home: index.md
-  - FAIRsoft Indicators: findability.md
+    - Overview.md
+    - Findability: 
+      - F1. Identity Uniqueness: indicators/F1_identity_uniqueness.md
+      - F2. Existence of metadata: indicators/F2_existence_of_metadata.md 
+      - F3. Searchability: indicators/F3_searchability.md
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
@@ -217,9 +220,9 @@ theme:
   # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/                              |
   # |                                                                                                      |
   # +------------------------------------------------------------------------------------------------------+
-  #font:
-  #  text: 'Roboto'
-  #  code: 'Roboto Mono'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
   
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
@@ -268,6 +271,9 @@ theme:
   # |                                                                                                      |
   # +------------------------------------------------------------------------------------------------------+
   features:
+    - content.tabs.link
+    #- navigation.sections 
+    
   # Announce
   #
   #- announce.dismiss # Adds a "X" button to dismiss a news banner/mark it as read.*
@@ -278,14 +284,14 @@ theme:
   
   # Navigation:
   #
-  #- navigation.expand      # Expand all collapsable sections.
-  #- navigation.instant     # Instant loading pages.
-  #- navigation.indexes     # Attach pages directly to Sections. Incompatible with "toc.integrate"
-  #- navigation.sections    # Render top sections as groups.
-  - navigation.tabs         # Render top sections as tabs at the top.
+    - navigation.expand      # Expand all collapsable sections.
+    - navigation.instant     # Instant loading pages.
+  #  - navigation.indexes     # Attach pages directly to Sections. Incompatible with "toc.integrate"
+    - navigation.sections    # Render top sections as groups.
+  #  - navigation.tabs         # Render top sections as tabs at the top.
   #- navigation.tabs.sticky # Tabs won't disappear when scrolling down. Requires "navigation.tabs".
   #- navigation.top         # Adds a "Back to top" that is shown when scrolling up.
-  #- navigation.tracking    # Updates the url with highlighted section anchor.
+    - navigation.tracking    # Updates the url with highlighted section anchor.
   
   # Search
   #
@@ -295,7 +301,7 @@ theme:
   
   # Table of Contents
   #
-  #- toc.integrate          # Include the TOC sections in the left navugation.
+    - toc.integrate          # Include the TOC sections in the left navugation.
   
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
@@ -472,18 +478,24 @@ extra:
 # | - https://www.mkdocs.org/user-guide/configuration/#markdown_extensions                                 |
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
-markdown_extensions:
+markdown_extensions: 
+  - tables 
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
   - markdown.extensions.admonition:
   - markdown.extensions.codehilite:
       guess_lang: false
   - markdown.extensions.toc:
       permalink: true
+
+  
   #- pymdownx.arithmex:
   #- pymdownx.b64:
   #- pymdownx.betterem:
   #- pymdownx.caret:
   #- pymdownx.critic:
-  #- pymdownx.details:
+  - pymdownx.details:
   #- pymdownx.emoji:
   #- pymdownx.escapeall:
   #- pymdownx.extra:
@@ -498,7 +510,7 @@ markdown_extensions:
   #- pymdownx.smartsymbols:
   #- pymdownx.snippets:
   #- pymdownx.striphtml:
-  #- pymdownx.superfences:
-  #- pymdownx.tabbed:
+  - pymdownx.superfences:
+  - pymdownx.tabbed:
   #- pymdownx.tasklist:
   #- pymdownx.tilde:
