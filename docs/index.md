@@ -1,6 +1,4 @@
-# Overview
-
-## Findability 
+# Introduction
 
 
 | **F1.  Identity Uniqueness** | The software has a proper, unique and persistent identifier. |

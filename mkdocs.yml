@@ -93,7 +93,7 @@ repo_url: https://github.com/evamart/mkdocs-template
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
 nav:
-    - index.md
+    - Introduction: index.md
     - Findability:
       - Overview: findability/index.md 
       - F1. Identity Uniqueness: findability/F1_identity_uniqueness.md
