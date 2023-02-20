@@ -99,7 +99,8 @@ nav:
       - F1. Identity Uniqueness: findability/F1_identity_uniqueness.md
       - F2. Existence of metadata: findability/F2_existence_of_metadata.md 
       - F3. Searchability: findability/F3_searchability.md
-
+    - Accessiblity: 
+      - A3. Unrestricted Access: accessibility/A3_unrestricted_access
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
 # | The "theme" section allows you to define what theme to use.                                            |
