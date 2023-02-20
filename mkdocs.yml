@@ -107,6 +107,13 @@ nav:
       - I1. Input/Output formats documented: interoperability/I1_input_output.md
       - I2. Workflow Compatibility: interoperability/I2_workflow_compatibility.md
       - I3. Dependencies availability: interoperability/I3_dependencies_available.md
+    - Reusability: 
+      - R1. Usage documentation: reusability/R1_usage_documentation.md
+      - R2. Licensing: reusability/R2_license.md
+      - R3. Contribution policy: reusability/R3_contribution_policy.md
+      - R4. Provenance: reusability/R4_provenance.md
+
+    
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |

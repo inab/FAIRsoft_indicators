@@ -22,7 +22,7 @@
 |
 | Reusability indicators    |  |
 |---------------------------|------------------------------------------|
-| R1. | Existence of usage documentation | There is adequate usage documentation. |
+| R1. | Usage documentation | There is adequate usage documentation. |
 | R2. | License | There is a clear and accessible usage license is provided | 
 | R3. | Contribution policy | There are contribution guidelines/policy for the software. | 
 | R4. | Provenance |  |
