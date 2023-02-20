@@ -101,6 +101,7 @@ nav:
       - F3. Searchability: findability/F3_searchability.md
     - Accessiblity: 
       - A1. Available Working Version: accessibility/A1_downloadable
+      - A2. Software history trackability: accessibility/A2_trackability
       - A3. Unrestricted Access: accessibility/A3_unrestricted_access
 
 # +--------------------------------------------------------------------------------------------------------+
