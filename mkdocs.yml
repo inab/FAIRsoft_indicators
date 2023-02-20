@@ -102,7 +102,11 @@ nav:
     - Accessiblity: 
       - A1. Available Working Version: accessibility/A1_downloadable
       - A2. Software history trackability: accessibility/A2_trackability
-      - A3. Unrestricted Access: accessibility/A3_unrestricted_access
+      - A3. Unrestricted Access: accessibility/A3_unrestricted_access 
+    - Interoperability:
+      - I1. Input/Output formats documented: interoperability/I1_input_output.md
+      - I2. Workflow Compatibility: interoperability/I2_workflow_compatibility.md
+      - I3. Dependencies availability: interoperability/I3_dependencies_available.md
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
