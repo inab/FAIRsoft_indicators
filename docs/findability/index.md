@@ -1,6 +1,4 @@
-# Findability indicators 
-
-The following table lists the indicators that are used to measure the findability of a software.
+# Overview of Findability indicators 
 
 | [**F1.  Identity Uniqueness**](../findability/F1_identity_uniqueness.md) | The software has a proper, unique and persistent identifier. |
 |---------------------------|------------------------------------------|
