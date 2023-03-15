@@ -75,8 +75,8 @@ docs_dir: docs/
 # | - https://www.mkdocs.org/user-guide/configuration/#edit_uri                                            |
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
-repo_name: evamart/mkdocs-template
-repo_url: https://github.com/evamart/mkdocs-template
+repo_name: inab/FAIRsoft_indicators
+repo_url: https://github.com/inab/FAIRsoft_indicators
 #edit_uri: tree/master/docs # Uncomment to define a different URI/URL for the "edit" option
 
 # +--------------------------------------------------------------------------------------------------------+
@@ -436,7 +436,7 @@ extra:
   # +------------------------------------------------------------------------------------------------------+
   social:
     - icon: 'fontawesome/brands/github'
-      link: 'https://github.com/Andre601/mkdocs-template'
+      link: 'https://github.com/inab/FAIRsoft_indicators'
   
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
