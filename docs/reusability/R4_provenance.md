@@ -1,27 +1,73 @@
-# R4. Provenance 
+# R4. Existence of Versioning and Historical Traceability 
+
+How effectively the software manages version control and documents historical changes, ensuring clear updates traceability and consistency in release practices for enhanced reliability, sustainability and auditability. 
+
+Explicit version control and documented historical changes facilitate efficient maintenance and debugging, enhance regulatory compliance, and build trust among users and developers by promoting transparency and accountability in the software's evolution.
 
 
-- ### R4.1. Usage of version control
+--- 
 
-    A version-control system is used to track changes in the software.
 
-    | Why should we measure it?  | How do we measure it? | Types it applies to  | 
-    |----------------------------|-----------------------|----------------------|
-    | Version control ensures the changes in software are recorded and searchable. | A repository either in github or sourceForge is considered valid  | all |
 
-- ### R4.2. Existence of release policy
+## R4.1. Use of version control 
 
-    The software follows a defined and documented release policy. 
+### What is being measured? 
 
-    | Why should we measure it?  | How do we measure it? | Types it applies to  |
-    |----------------------------|-----------------------|----------------------|
-    | Without a release policy, users cannot know the differences between versions of a software. | Not measured  | all |
+- Whether the software follows a version-control system. 
 
-- ### R4.3. Metadata of previous versions at software repositories 
+### Why should we measure it? 
 
-    Metadata of previous versions is available. 
+- Using version control is crucial as it systematically records and tracks changes to the software, making it easier to manage updates and trace modifications over time. 
 
-    | Why should we measure it?  | How do we measure it? | Types it applies to  |
-    |----------------------------|-----------------------|----------------------| 
-    | Even if the code/functionality is missing, the existence of metadata for a given version of a software, used in a published research the user is interested in, for instance, enables them to be certain about the past existence of a software and relevant details about it. | Not measured | all | 
+### How do we measure it? 
 
+- A software repository hosted in GitHub, Bitbucket or GitLab is considered valid. 
+
+### Types it applies to 
+
+- all
+
+
+---
+
+
+## R4.2. Existence of a release policy 
+
+### What is being measured? 
+
+- Whether the software follows a defined and documented release policy. 
+
+### Why should we measure it? 
+
+- A clear release policy is essential because it informs users about the changes and improvements between software versions, enabling them to understand updates and make informed decisions about upgrades. 
+
+### How do we measure it? 
+
+- Not measured. 
+
+### Types it applies to 
+
+- all
+
+
+---
+
+## R4.3. Existence of metadata of previous versions in software repositories 
+
+### What is being measured? 
+
+- Whether there is available metadata of previous versions. 
+
+### Why should we measure it? 
+
+- Maintaining metadata of previous versions in software repositories is crucial because it ensures users can verify the existence and specifics of past software versions, particularly those referenced in published research, thereby providing essential context and supporting reproducibility. 
+
+### How do we measure it? 
+
+- Not measured. 
+
+### Types it applies to 
+
+- all
+
+ 

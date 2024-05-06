@@ -1,35 +1,112 @@
-# A1.  Existence of available working version
+# A1.  Existence of an available working version
+
+Whether it is possible to access/download/build a working version of the software.  
+
+Being able to access the software as a user is the central aspect of Accessibility.
+
+--- 
+
+## A1.1. Existence of an API or web interface
+
+### What is being measured? 
+
+- Whether it is possible to access a working version of the software through an API or web interface.
+
+
+### Why should we measure it? 
+
+- Providing an API or web interface allows remote access with just an internet connection, greatly enhancing the software's usability, facilitating integration with other systems, and enabling a broader range of users to benefit from its features without complex installations. 
+
+### How do we measure it? 
+
+- A working URL is considered valid. 
+
+
+### Types it applies to 
+
+- web
+
+--- 
+
+
+## A1.2. Existence of downloadable and buildable software working version 
+
+### What is being measured?  
+
+- Whether it is possible to access/download/build a working version of the software including the generation of a software container. 
+
+### Why should we measure it?
+
+- A downloadable and buildable version of the research software significantly increases its freedom of use and usability. It allows users to install and run the software where and as needed, e.g. to use locally and in/as modules. 
+
+### How do we measure it? 
+
+- At least one download working link is considered valid.
+
+
+### Types it applies to 
+
+- non-web
+
+--- 
+
+## A1.3. Existence of installation instructions 
+
+### What is being measured? 
+
+- Whether there is a set of instructions and other necessary information that the user can follow to build the software. 
+
+### Why should we measure it? 
+
+- Clear installation instructions are essential for ensuring successful software setup, reducing installation and deployment time, minimising potential errors, and enhancing overall user experience.  
+
+### How do we measure it? 
+
+-  A link explicitly stated as installation instructions or manual, instructions on the web if Bioconductor package, and availability through Galaxy ToolShed are all considered valid.
+
+
+### Types it applies to
+
+- non-web
+
+--- 
 
     
-- ### A1.1. Existence of API or web interfaces
+## A1.4. Existence of test data 
 
-    | Why should we measure it?  | How do we measure it? | Types it applies to  |
-    |----------------------------|-----------------------|----------------------|
-    | Remote access to the tool requires only internet access from users and other software, increasing the usability of the resource.  | The software has a public API or web interface. | web |
+### What is being measured? 
 
-- ### A1.2. Existence of downloadable and buildable software working version 
+- Whether test data is available. 
 
-    | Why should we measure it?  | How do we measure it? | Types it applies to  |
-    |----------------------------|-----------------------|----------------------|
-    | Many users want to be able to install and run the software where and as they wish. Other times, it is imperative to install the resource locally to be able to use it (modules, for instance). A downloadable and buildable version greatly increases the freedom of use and usability of software. | At least one working download link is considered valid. | non-web | 
+### Why should we measure it? 
 
-- ### A1.3. Existence of installation instructions 
+- Test data confirms the software's functionality and provides users with practical examples for setting up their own datasets, thereby increasing usability and ensuring robustness. 
 
-    | Why should we measure it?  | How do we measure it? | Types it applies to  |
-    |----------------------------|-----------------------|----------------------|
-    | A guideline to install the software might be absolutely necessary to successfully build a software. In all cases, it greatly increases the probability of successful installation. | A link explicitly stated as installation instruction or manual, instructions on the web if Bioconductor package, availability through Galaxy ToolShed are all considered valid. | non-web | 
+### How do we measure it?
 
-- ### A1.4. Existence of test data 
+- At least one piece of test data is considered valid. 
 
-    | Why should we measure it?  | How do we measure it? | Types it applies to  |
-    |----------------------------|-----------------------|----------------------|
-    | Test data allows the user to make sure the program works as expected and serves as an example of working data the user can look at when preparing its own data and learning to use the software. |At least one piece of test data is considered valid. | non-web | all | 
+### Types it applies to
 
-- ### A1.5. Existence of software source code 
+- all
 
-    | Why should we measure it?  | How do we measure it? | Types it applies to  |
-    |----------------------------|-----------------------|----------------------|
-    | Source code can be compiled to work in any operating system, and help the user to solve installation and running issues (i.e. dealing with dependencies). The solution to these issues can even be a modification in the code. Source code is the only way to understand how the software works and to modify it to suit the user's needs. | A link explicitly stated as source code is considered valid. | non-web | 
-
+--- 
 
     
+## A1.5. Existence of software source code 
+
+### What is being measured?  
+
+- Whether software source code is available.
+
+### Why should we measure it? 
+
+- The availability of source code allows users to compile the software on various operating systems, address installation challenges, manage dependencies, and customise the code to meet specific needs, enhancing adaptability and user control. 
+
+### How do we measure it? 
+
+- A link explicitly stated as source code is considered valid. 
+
+### Types it applies to 
+
+- non-web

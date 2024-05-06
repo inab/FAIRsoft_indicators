@@ -1,21 +1,47 @@
-# A2.  Software history trackability
+# A2.  Software history trackability 
 
-    
-- ### A2.1. Metadata of previous versions at software repositories 
+Whether code and metadata are available even when the software is no longer in use. 
 
-    Whether there is available metadata of previous versions
+To match software provenance with analysed data provenance.
 
-    | Why should we measure it?  | How do we measure it? | Types it applies to  |
-    |----------------------------|-----------------------|----------------------|
-    | Even if the code/functionality is missing, the existence of metadata for a given version of a software provides evidence of  its previous existence  and relevant details. | Not measured | all | 
+---
 
 
-- ### A2.2. Existence of accessible previous versions of the software 
+## A2.1. Existence of metadata of previous versions in software repositories
 
-    Whether there are available previous versions
+### What is being measured? 
 
-    | Why should we measure it?  | How do we measure it? | Types it applies to  |
-    |----------------------------|-----------------------|----------------------|
-    | Necessary to be able to reproduce analyses with the original software versions. In addtion, even if the code/functionality is missing, the existence of previous versions of a software provides evidence of its previous existence  and relevant details. | Not measured | all |
-     
+- Whether there is available metadata of previous versions. 
 
+### Why should we measure it? 
+
+- Maintaining metadata for previous software versions in repositories ensures the traceability of changes and updates, offering insights into the evolution of the software and facilitating the understanding of its historical context and development. 
+
+### How do we measure it? 
+
+- Not measured 
+
+### Types it applies to
+
+- all
+
+
+---
+
+## A2.2. Existence of accessible previous versions of the software
+
+### What is being measured? 
+
+- Whether there are available previous versions. 
+
+### Why should we measure it? 
+
+- Accessibility to previous software versions allows users to reproduce analyses with a given software version. 
+
+### How do we measure it? 
+
+- Not measured 
+
+### Types it applies to
+
+- all

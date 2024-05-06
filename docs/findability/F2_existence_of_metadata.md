@@ -1,21 +1,46 @@
 # F2. Existence of Metadata
-The software is described with rich metadata, including scientific applicability. Metadata makes finding through search engines and deciding if a tool is of interest possible.
+
+Whether the software is described with rich metadata, including scientific applicability. 
+
+Metadata makes it possible to find tools through search engines and decide if they interest the user.
+
+---  
 
 
-- ### F2.1. Structured Metadata
-
-    Metadata is adjusted to specific metadata formats
-
-    | Why should we measure it?  | How do we measure it? | Types it applies to  |
-    |----------------------------|-----------------------|----------------------|
-    |Specific formats are more machine readable, which increases its findability by search engines| At least a source of structured metadata is considered valid. | all |
+## F2.1. Existence of structured metadata 
 
 
-- ### F2.2. Standardized Metadata
+### What is being measured? 
+- Whether metadata is adjusted to specific metadata formats. 
 
-    Metadata is described using accepted ontologies 
+### Why should we measure it? 
 
-    | Why should we measure it?  | How do we measure it? | Types it applies to  |
-    |----------------------------|-----------------------|----------------------|
-    | The same piece of information about a software can be stated in many equivalent forms. Each tool being described with different terminology, with non specified meanings, makes metadata very hard to interpret. Automatic processing is also harder. When searching for a software with certain features, the lack of a consusuate terminology makes the process of searching slow and difficult. | EDAM, bioschema | all | 
+- Using specific, structured metadata formats enhances machine readability, which not only increases the software's findability by search engines but also improves interoperability and facilitates the accurate extraction and utilisation of data, thereby boosting its usability and accessibility for both humans and machines. 
+
+### How do we measure it? 
+
+- Any source of structured metadata (e.g. JSON, XML, YAML) is considered valid. 
+
+### Types it applies to 
+
+- all
+
+--- 
+
+## F2.2. Existence of standardised metadata 
+
+
+### What is being measured? 
+- Whether metadata is described using accepted ontologies. 
+
+### Why should we measure it? 
+
+- Standardised metadata using consensual terminology simplifies the interpretation and automated processing of software descriptions by ensuring a uniform approach to information representation. This uniformity enhances search efficiency and accuracy, making finding software with specific features easier and faster. 
+
+### How do we measure it? 
+- Use of EDAM and/or Bioschemas to describe the software is considered valid. 
+
+### Types it applies to
+
+- all
 

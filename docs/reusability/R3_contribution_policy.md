@@ -1,17 +1,50 @@
-# R3. Contribution policy 
+# R3. Existence of Contribution Recognition and Governance 
 
-- ### R3.1. Contributors policy specification
-    A document stating the contributors policy exists
-    
-    | Why should we measure it?  | How do we measure it? | Types it applies to  |
-    |----------------------------|-----------------------|----------------------|
-    | The lack of a policy or guide stating how to contribute to a software prevents external developers willing to contribute to it. | Not measured | all |
+Whether there are policies governing contributor roles and systems in place for acknowledging their contributions ensuring fair and transparent collaboration within software projects. 
 
-- ### R3.2.Credit
-    
-    Credit for contributions is provided
+Clear policies and guidelines on contributing to a software project attract and empower external developers, fostering a collaborative environment.
 
-    | Why should we measure it?  | How do we measure it? | Types it applies to  |
-    |----------------------------|-----------------------|----------------------| 
-    | The credits for contributions should be stated, as contributors hold the copyright. | Authors are considered valid | all | 
+
+--- 
+
+
+## R3.1. Existence of the Contributors policy 
+
+### What is being measured? 
+
+- Whether a document stating the contributor's policy exists. 
+
+### Why should we measure it? 
+
+- A specified contributors policy is crucial because it provides external developers with the necessary guidelines for contributing, facilitating their involvement and enhancing the software's development and improvement. 
+
+### How do we measure it? 
+
+- Not measured. 
+
+### Types it applies to 
+
+- all
+
+
+--- 
+
+
+## R3.2.Existence of credit 
+
+### What is being measured? 
+
+- Whether credit for contributions is provided. 
+
+### Why should we measure it? 
+
+- Credit is essential as it acknowledges contributors' intellectual property rights and ensures their contributions are appropriately recognised under existing regulations and towards the overall research community. 
+
+### How do we measure it? 
+
+- Authors are considered valid. 
+
+### Types it applies to 
+
+- all
 

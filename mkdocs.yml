@@ -93,24 +93,24 @@ repo_url: https://github.com/inab/FAIRsoft_indicators
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
 nav:
-    - Introduction: index.md
+    - Overview: index.md
     - Findability:
       - F1. Identity Uniqueness: findability/F1_identity_uniqueness.md
       - F2. Existence of metadata: findability/F2_existence_of_metadata.md 
-      - F3. Searchability: findability/F3_searchability.md
+      - F3. Discoverability: findability/F3_searchability.md
     - Accessiblity: 
-      - A1. Available Working Version: accessibility/A1_downloadable
+      - A1. Existence of an available working version: accessibility/A1_downloadable
       - A2. Software history trackability: accessibility/A2_trackability
       - A3. Unrestricted Access: accessibility/A3_unrestricted_access 
     - Interoperability:
-      - I1. Input/Output formats documented: interoperability/I1_input_output.md
-      - I2. Workflow Compatibility: interoperability/I2_workflow_compatibility.md
+      - I1. Data Format Standards and Practices: interoperability/I1_input_output.md
+      - I2. Software Integration: interoperability/I2_workflow_compatibility.md
       - I3. Dependencies availability: interoperability/I3_dependencies_available.md
     - Reusability: 
-      - R1. Usage documentation: reusability/R1_usage_documentation.md
-      - R2. Licensing: reusability/R2_license.md
-      - R3. Contribution policy: reusability/R3_contribution_policy.md
-      - R4. Provenance: reusability/R4_provenance.md
+      - R1. Existence of usage documentation: reusability/R1_usage_documentation.md
+      - R2. Existence of license and/or terms of use: reusability/R2_license.md
+      - R3. Existence of Contribution Recognition and Governance: reusability/R3_contribution_policy.md
+      - R4. Existence of Versioning and Historical Traceabilitye: reusability/R4_provenance.md
 
     
 

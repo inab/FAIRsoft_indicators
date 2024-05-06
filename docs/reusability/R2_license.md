@@ -1,19 +1,50 @@
-# R2. License 
+# R2. Existence of license and/or terms of use 
 
-- ### R2.1. Terms of use
+Whether a clear and accessible usage license is provided.
+
+Explicit licenses or terms of use are necessary to provide a clear framework for the use of any research software. The lack of a license or terms of use and installation can prevent users, especially from industry and regulated sectors, from installing, executing and using software.
+
+
+--- 
+
+
+## R2.1. Existence of terms of use
     
-    Terms of Use are stated
+### What is being measured? 
 
-    | Why should we measure it?  | How do we measure it? | Types it applies to  |
-    |----------------------------|-----------------------|----------------------|
-    | Any condition for the usage of a software must be known prior to its usage.| Terms of use or license are considered valid |web |
+- Whether terms of use are stated. 
 
-- ### R2.2. Conditions of use
+### Why should we measure it? 
 
-    Conditions of installation and usage are stated
+- Clearly stated terms of use ensure that users are fully aware of the conditions and limitations of software usage before its adoption, promoting transparency and informed decision-making. 
 
-    | Why should we measure it?  | How do we measure it? | Types it applies to  |
-    |----------------------------|-----------------------|----------------------|
-    | Any condition for the usage of a software must be known prior to its usage. | Conditions of use or license are considered valid | non-web |
+### How do we measure it? 
+
+- Terms of use or license are considered valid. 
+
+### Types it applies to 
+
+- web
 
 
+--- 
+
+
+## R2.2. Existence of conditions of use
+
+
+### What is being measured? 
+
+- Whether conditions of installation and use are stated. 
+
+### Why should we measure it? 
+
+- The existence of clearly defined conditions of use is essential, as it ensures users understand and agree to the terms under which software can be utilised before they begin using it, fostering transparency and compliance. 
+
+### How do we measure it? 
+
+- Conditions of use or license are considered valid. 
+
+### Types it applies to
+
+- non-web

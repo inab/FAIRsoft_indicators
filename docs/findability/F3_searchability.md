@@ -1,30 +1,64 @@
 
-# F3.  Searchability
+# F3.  Discoverability 
 
 How software can be found. There are multitude of mechanisms for scientists looking to find specific software
 
-- ### F3.1. Searchability in registries
 
-    The software is included in the main software registries.
-
-
-    | Why should we measure it?  | How do we measure it? | Types it applies to  |
-    |----------------------------|-----------------------|----------------------|
-    | Software registries are the main resource scientists use when searching for software. | At least one software registry among the instance sources is considered valid. | all |
-
-- ### F3.2. Searchability in software repositories
-
-    The software can be found in any of the major software repositories e.g. GitHub, GitLab, SourceForge,
+--- 
 
 
-    | Why should we measure it?  | How do we measure it? | Types it applies to  |
-    |----------------------------|-----------------------|----------------------|
-    | Software repositories can be an additional resource used by scientists when looking for software | An associated software repository is considered valid. | all |
+## F3.1. Discoverability in software registries
 
-- ### F3.3. Searchability in literature
+### What is being measured?
 
-    The software can be found in specialized literature services e.g. EuropePMC, PubMed, Journals Site, biorxiv
+- Whether software is included in the main software registries. 
 
-    | Why should we measure it?  | How do we measure it? | Types it applies to  |
-    |----------------------------|-----------------------|----------------------|
-    | Specialized literature is a good reference to find software, especially to discover new software | At least one associated publication is considered valid. | all |
+### Why should we measure it? 
+
+- Software registries serve as primary resources for users seeking specific resources, and ensuring software is discoverable in these registries enhances visibility, facilitates peer recognition, and increases the potential for adoption and collaboration.
+
+### How do we measure it? 
+- At least one software registry among the metadata sources is considered valid. 
+
+### Types it applies to 
+
+
+--- 
+
+## F3.2. Discoverability in software repositories
+
+### What is being measured? 
+
+- Whether software can be found in any of the major software repositories. 
+
+### Why should we measure it? 
+
+- Users can use software repositories as additional resources when looking for research software. Listing software in repositories such as GitHub and GitLab enhances its visibility and accessibility, making it easier for scientists to find, use, and contribute to software development. 
+
+### How do we measure it? 
+
+An associated software repository (GitHub, GitLab or Bitbucket) is considered valid. 
+
+### Types it applies to 
+
+- all
+
+--- 
+
+## F3.3. Discoverability in the scientific literature
+
+### What is being measured? 
+
+- Whether software can be found in specialised literature services. 
+
+### Why should we measure it? 
+
+- Specialised scientific literature serves as a crucial reference for finding software, particularly new ones, as it not only enhances visibility and credibility but also provides detailed context and validation through citations and reviews, including the ones by peers. 
+
+### How do we measure it? 
+
+- At least one associated publication is considered valid. 
+
+### Types it applies to 
+
+- all

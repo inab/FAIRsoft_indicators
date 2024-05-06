@@ -1,27 +1,70 @@
-# I3. Dependencies availability
+# I3. Dependencies availability 
 
-- ### I3.1. Dependencies statement
+Whether dependencies are documented and mechanisms to obtain them exist. 
 
-    Whether the software includes details about dependencies
+Software dependencies are essential for it to function properly. 
 
-    | Why should we measure it?  | How do we measure it? | Types it applies to  |
-    |----------------------------|-----------------------|----------------------|
-    |  A clear dependencies statement informs users about the additional software required to operate the main software effectively. This transparency helps in ensuring that all necessary components are installed, which facilitates a smoother setup and operational experience.  | At least one dependency stated is valid | all |
+---
+
+## I3.1. Existence of Dependencies statement 
+
+### What is being measured? 
+
+- Whether the software includes details about dependencies.
+
+### Why should we measure it? 
+
+- A clear dependencies statement informs users about the additional software required to operate the main software effectively. This transparency helps ensure that all necessary components are installed, facilitating a smoother setup and experience. 
+
+### How do we measure it? 
+
+- At least one dependency stated is valid. 
+
+### Types it applies to 
+
+- all
 
 
-- ### I3.2. Dependencies are provided
-
-    Whether the software includes its dependencies or mechanisms to access them
-
-    | Why should we measure it?  | How do we measure it? | Types it applies to  |
-    |----------------------------|-----------------------|----------------------|
-    |  Providing dependencies along with the software can greatly enhance user convenience by minimizing the steps needed for installation. This method helps to eliminate common setup obstacles, facilitating a more streamlined and error-free user experience.  | If Bioconductor, Bioconda, or Galaxy among the sources is valid. | all |
+---
 
 
-- ### I3.3. Availability through dependencies-aware systems
+## I3.2. Availability of software dependencies 
 
-    Whether the software is distributed via a dependencies-aware system
+### What is being measured? 
 
-    | Why should we measure it?  | How do we measure it? | Types it applies to  |
-    |----------------------------|-----------------------|----------------------|
-    |  Ensuring software availability through dependencies-aware systems like package managers enhances accessibility and ease of installation. This feature allows users to manage software and its dependencies efficiently, improving reliability and reducing compatibility issues across different environments.  | If Bioconductor, Bioconda, or Galaxy among the sources is valid. | all |
+- Whether the software includes its dependencies or mechanisms to access them. 
+
+### Why should we measure it? 
+
+- Providing dependencies along with the software can significantly enhance user experience by minimising the steps needed for installation. This method helps to eliminate common setup obstacles, facilitating a more streamlined and error-free user experience. 
+
+### How do we measure it? 
+
+- Bioconductor, Bioconda, or Galaxy Europey among the metadata sources of the software is considered valid. 
+
+### Types it applies to 
+
+- all
+
+
+---
+
+
+## I3.3. Availability through dependencies-aware systems
+
+### What is being measured? 
+
+- Whether the software is distributed via a dependencies-aware system. 
+
+### Why should we measure it? 
+
+- Ensuring software availability through dependencies-aware systems like package managers enhances accessibility and ease of installation. This feature allows users to efficiently manage software and its dependencies, improving reliability and reducing compatibility issues across different environments. 
+
+### How do we measure it? 
+
+- Bioconductor, Bioconda, or Galaxy Europey among the metadata sources of the software is considered valid. 
+
+
+### Types it applies to 
+
+- all
