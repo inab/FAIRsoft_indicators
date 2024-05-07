@@ -93,26 +93,28 @@ repo_url: https://github.com/inab/FAIRsoft_indicators
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
 nav:
-    - Overview: 
-      - The FAIRsoft indicators: introduction/index.md
-      - How to contribute: introduction/CONTRIBUTING.md
-    - Findability:
-      - F1. Identity Uniqueness: findability/F1_identity_uniqueness.md
-      - F2. Existence of metadata: findability/F2_existence_of_metadata.md 
-      - F3. Discoverability: findability/F3_searchability.md
-    - Accessiblity: 
-      - A1. Existence of an available working version: accessibility/A1_downloadable
-      - A2. Software history trackability: accessibility/A2_trackability
-      - A3. Unrestricted Access: accessibility/A3_unrestricted_access 
-    - Interoperability:
-      - I1. Data Format Standards and Practices: interoperability/I1_input_output.md
-      - I2. Software Integration: interoperability/I2_workflow_compatibility.md
-      - I3. Dependencies availability: interoperability/I3_dependencies_available.md
-    - Reusability: 
-      - R1. Existence of usage documentation: reusability/R1_usage_documentation.md
-      - R2. Existence of license and/or terms of use: reusability/R2_license.md
-      - R3. Existence of Contribution Recognition and Governance: reusability/R3_contribution_policy.md
-      - R4. Existence of Versioning and Historical Traceabilitye: reusability/R4_provenance.md
+    - Welcome: index.md
+    - Indicators:
+      - Overview : indicators/index.md
+      - Findability:
+        - F1. Identity Uniqueness: indicators/findability/F1_identity_uniqueness.md
+        - F2. Existence of metadata: indicators/findability/F2_existence_of_metadata.md 
+        - F3. Discoverability: indicators/findability/F3_searchability.md
+      - Accessiblity: 
+        - A1. Existence of an available working version: indicators/accessibility/A1_downloadable
+        - A2. Software history trackability: indicators/accessibility/A2_trackability
+        - A3. Unrestricted Access: indicators/accessibility/A3_unrestricted_access 
+      - Interoperability:
+        - I1. Data Format Standards and Practices: indicators/interoperability/I1_input_output.md
+        - I2. Software Integration: indicators/interoperability/I2_workflow_compatibility.md
+        - I3. Dependencies availability: indicators/interoperability/I3_dependencies_available.md
+      - Reusability: 
+        - R1. Existence of usage documentation: indicators/reusability/R1_usage_documentation.md
+        - R2. Existence of license and/or terms of use: indicators/reusability/R2_license.md
+        - R3. Existence of Contribution Recognition and Governance: indicators/reusability/R3_contribution_policy.md
+        - R4. Existence of Versioning and Historical Traceabilitye: indicators/reusability/R4_provenance.md
+    - How to contribute: introduction/CONTRIBUTING.md
+    - About Us: about.md
 
 
 
@@ -303,11 +305,13 @@ theme:
   #- header.autohide # Hide header when user scrolls past a specific point.
   
   # Navigation:
-    - navigation.tabs
-    - navigation.sections 
-    - navigation.expand
+    #- navigation.tabs
+    #- navigation.sections 
+    #- navigation.expand
     - navigation.path
-   
+    - navigation.indexes
+  
+
   # Search
   #
   #- search.highlight # Search will highlight the searched word(s) on the page.*
@@ -497,6 +501,8 @@ extra:
 markdown_extensions: 
   - tables 
   - pymdownx.superfences
+  - attr_list
+  - md_in_html
   - pymdownx.tabbed:
       alternate_style: true 
   - markdown.extensions.admonition:
