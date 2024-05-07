@@ -93,7 +93,9 @@ repo_url: https://github.com/inab/FAIRsoft_indicators
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
 nav:
-    - Overview: index.md
+    - Overview: 
+      - The FAIRsoft indicators: introduction/index.md
+      - How to contribute: introduction/CONTRIBUTING.md
     - Findability:
       - F1. Identity Uniqueness: findability/F1_identity_uniqueness.md
       - F2. Existence of metadata: findability/F2_existence_of_metadata.md 
@@ -112,7 +114,8 @@ nav:
       - R3. Existence of Contribution Recognition and Governance: reusability/R3_contribution_policy.md
       - R4. Existence of Versioning and Historical Traceabilitye: reusability/R4_provenance.md
 
-    
+
+
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
@@ -286,8 +289,10 @@ theme:
   # |                                                                                                      |
   # +------------------------------------------------------------------------------------------------------+
   features:
-    - content.tabs.link
-    #- navigation.sections 
+    
+    #- content.tabs.link
+    
+
     
   # Announce
   #
@@ -298,16 +303,11 @@ theme:
   #- header.autohide # Hide header when user scrolls past a specific point.
   
   # Navigation:
-  #
-    - navigation.expand      # Expand all collapsable sections.
-    - navigation.instant     # Instant loading pages.
-  #  - navigation.indexes     # Attach pages directly to Sections. Incompatible with "toc.integrate"
-    - navigation.sections    # Render top sections as groups.
-  #  - navigation.tabs         # Render top sections as tabs at the top.
-  #- navigation.tabs.sticky # Tabs won't disappear when scrolling down. Requires "navigation.tabs".
-  #- navigation.top         # Adds a "Back to top" that is shown when scrolling up.
-    - navigation.tracking    # Updates the url with highlighted section anchor.
-  
+    - navigation.tabs
+    - navigation.sections 
+    - navigation.expand
+    - navigation.path
+   
   # Search
   #
   #- search.highlight # Search will highlight the searched word(s) on the page.*
@@ -316,7 +316,7 @@ theme:
   
   # Table of Contents
   #
-    - toc.integrate          # Include the TOC sections in the left navugation.
+    #- toc.integrate          # Include the TOC sections in the left navugation.
   
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |

@@ -1,0 +1,31 @@
+name: Copy CONTRIBUTING.md
+
+on:
+  push:
+    branches:
+      - main  # Change this to the name of your main branch
+
+jobs:
+  copy-contributing:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Copy CONTRIBUTING.md to docs/introduction directory
+        run: |
+          mkdir -p docs/introduction
+          cp CONTRIBUTING.md docs/introduction/
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@users.noreply.github.com"
+          git add docs/introduction/CONTRIBUTING.md
+          git commit -m "Automatically update contributing.md"
+      
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
