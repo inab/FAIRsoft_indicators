@@ -3,7 +3,7 @@ name: Copy CONTRIBUTING.md
 on:
   push:
     branches:
-      - main  # Change this to the name of your main branch
+      - master  # Change this to the name of your main branch
 
 jobs:
   copy-contributing:
