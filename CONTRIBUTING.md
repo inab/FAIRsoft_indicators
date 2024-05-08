@@ -1,36 +1,59 @@
-# How to Contribute 
 
-How to Contribute to Our Collection of Research Software Quality Indicators
+# How to Contribute to Our Collection of Research Software Quality Indicators
 
-Thank you for your interest in contributing to our collection of research software quality indicators! Your contributions play a crucial role in improving the comprehensiveness and effectiveness of our project. Here's how you can get involved:
-Accessing the GitHub Repository:
+Thank you for your interest in contributing to our collection of research software quality indicators! Your involvement is vital for enhancing the comprehensiveness and effectiveness of our indicators. Below you will find detailed ways you can contribute to the project.
 
-Our project is hosted on GitHub. If you're viewing this guide on our website and would like to contribute, you can access the GitHub repository by following this link: [Link to GitHub Repository](https://github.com/inab/FAIRsoft_indicators) 
+## Accessing the GitHub Repository
 
-1. Familiarize Yourself with the Project:
+Our project is hosted on GitHub. If you're reading this guide on our website and would like to contribute directly, please visit the [FAIRsoft Research Quality Indicators Repository](https://github.com/inab/FAIRsoft_indicators).
 
-Before contributing, take some time to familiarize yourself with our project and its goals. Browse through the repository where the indicators specification "lives" to understand the existing indicators and their documentation. 
+## Contribution Guidelines
 
-2. Explore Existing Issues:
+### 1. Familiarize Yourself with the Project
 
-Check the repository's [issue tracker](https://github.com/inab/FAIRsoft_indicators/issues) for existing issues related to the indicators. These issues may include suggestions for new indicators, discussions about existing ones, or requests for clarification. 
+Start by understanding the scope and objectives of our project:
+- Review the [documentation](https://github.com/inab/FAIRsoft_indicators/tree/main/docs/indicators) where the indicators are described.
+- Understand the existing indicators, their importance, and how they are used.
 
-3. Submitting a New Issue:
+### 2. Explore Existing Issues
 
-If you have an idea for a new indicator or would like to suggest improvements to an existing one, you can submit a [new issue](https://github.com/inab/FAIRsoft_indicators/issues/new). Please provide as much detail as possible, including the rationale behind your suggestion and any relevant references.
+Look through the project's [issue tracker](https://github.com/inab/FAIRsoft_indicators/issues) to find ongoing discussions, requests for enhancements, or reports of bugs:
+- Identify areas where you can contribute or propose new ideas.
+- Issues might include suggestions for new indicators, refinements of existing ones, or technical improvements.
 
-4. Participate in Discussions:
+### 3. Submit a New Issue
 
-Engage in [discussions](https://github.com/inab/FAIRsoft_indicators/discussions) on existing issues by sharing your thoughts, providing feedback, or offering solutions. Your input can help refine and clarify the indicators, ensuring they accurately reflect best practices in research software quality. 
+If you identify a potential improvement or have a new indicator in mind:
+- Submit a [new issue](https://github.com/inab/FAIRsoft_indicators/issues/new) detailing your idea.
+- Provide comprehensive details including the purpose of the indicator, its measurement methodology, and any relevant literature or examples.
 
-5. Proposing Changes:
+### 4. Participate in Discussions
 
-If you're comfortable with Git and GitHub, you can fork the repository, make your proposed changes, and submit a pull request. Be sure to follow any guidelines or conventions outlined in the repository's contributing guidelines.
+Engage actively in the [discussions section](https://github.com/inab/FAIRsoft_indicators/discussions):
+- Share your insights, provide feedback, and help refine proposals.
+- Discussions are great platforms for brainstorming and collaborating on new ideas.
 
+### 5. Propose Changes via Pull Requests
 
-6. Spread the Word:
+If you're familiar with GitHub and Git:
+- Fork the repository, create a new branch for your changes, and develop your enhancements.
+- Submit a pull request with a clear description of your changes and reference any related issue(s).
+- Follow any coding standards and guidelines provided in the repository.
 
-Help us reach a broader audience by sharing our project with others who may be interested. Whether through social media, academic networks, or research communities, spreading awareness can attract more contributors and enrich our discussions.
+### 6. Review Contributions
 
+Participate in the review process by providing constructive feedback on other contributors' pull requests.
 
-Thank you for being part of our community!
+### 7. Spread the Word
+
+Help expand our community:
+- Share the project within your networks.
+- Present the indicators at workshops, seminars, and conferences.
+- Encourage your peers to contribute.
+
+## Stay Connected
+
+Follow the repository to stay updated on new discussions, issues, and updates. Your ongoing engagement is crucial for the project's success.
+
+Thank you for being a part of our community and contributing to the advancement of research software quality indicators!
+
