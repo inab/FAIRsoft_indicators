@@ -6,6 +6,16 @@ Explore the indicators in depth and learn how to integrate them into your softwa
 
 ---
 
+## Our Indicators are Evolving! 📈
+
+We are committed to continuously enhancing and broadening our collection of software quality indicators. Community contributions play a pivotal role in this process. Your insights, suggestions, and active involvement are crucial to our collective success. 
+
+Check out our [Contributing Guidelines](./CONTRIBUTING.md) to get started!
+
+
+--- 
+
+
 ## Quick Links
 
 🚀 **Navigate Easily:**
@@ -17,12 +27,4 @@ Explore the indicators in depth and learn how to integrate them into your softwa
 
 - [**About the Project**](about.md): Understand the ambitions, objectives, and the people behind our initiatives.
 - [**Contact Us**](contact.md): Have questions or ideas? Connect with the project maintainers or team members for discussions and potential collaborations.
-
----
-
-## Our Indicators are Evolving! 📈
-
-We are committed to continuously enhancing and broadening our collection of software quality indicators. Community contributions play a pivotal role in this process. Your insights, suggestions, and active involvement are crucial to our collective success. Let’s work together to elevate the standards of research software quality!
-
-> Interested in making a difference? Check out our [Contributing Guidelines](./CONTRIBUTING.md) to get started!
 
