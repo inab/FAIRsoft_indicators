@@ -1,74 +1,61 @@
+# Indicators Structure
 
-# Indicators Structure 
+Welcome to the comprehensive guide on FAIRsoft indicators, designed to systematically assess the FAIRness of research software. Our indicators are split into two categories: high-level and low-level, each tailored to provide insights at different granularity levels.
 
-The collection of FAIRsoft indicators consists of **high-level** and **low-level** indicators that are designed to evaluate the FAIRness of research software. 
+## High-level Indicators
 
+High-level indicators represent overarching aspects of FAIRness based on the FAIR principles, offering a broad evaluation of software adherence to these principles. These indicators are categorized by the specific FAIR principle they assess:
 
-## High-level Indicators 
+- **F (Findability)**
+- **A (Accessibility)**
+- **I (Interoperability)**
+- **R (Reusability)**
 
-High-level indicators are broad criteria that capture the essential aspects of FAIRness in research software. These indicators are based on the FAIR principles and provide a comprehensive overview of the software's adherence to these principles. 
+Each indicator is denoted by a letter representing the principle followed by a number indicating its position within that category, e.g., F3 for the third Findability indicator.
 
-The high-level indicators are denoted by a letter and a number, where the letter represents the FAIR principle and the number represents the indicator within that principle. For example, F3 represents the third indicator under the Findability principle.
+### Examples of High-level Indicators
 
-!!! example "Examples of High-level Indicators"
-
-    - F3: Discoverability
-    - I1: Data Format Standards and Practices
-    - R1: Usage Documentation
+- **F3: Discoverability** - Assessing the ease with which software can be found by both humans and machines.
+- **I1: Data Format Standards and Practices** - Evaluating adherence to industry standards in data formatting.
+- **R1: Usage Documentation** - Examining the availability and comprehensiveness of documentation.
 
 ## Low-level Indicators
 
-Low-level indicators are specific criteria that support the high-level indicators by providing detailed guidance on how to assess the FAIRness of research software. These indicators are more granular and actionable, allowing developers and stakeholders to evaluate the software's compliance with the FAIR principles in a more detailed and systematic manner. 
+Low-level indicators provide detailed, actionable criteria supporting the high-level indicators. These indicators delve deeper into specific aspects of FAIRness, enabling a thorough assessment process.
 
-Low-level indicators are denoted by a letter, a number, and a sub-number, where the letter represents the high-level indicator, the number represents the low-level indicator within that high-level indicator, and the sub-number represents the sub-indicator within the low-level indicator. For example, F3.1 represents the first low-level indicator under the third high-level indicator of the Findability principle.
+Each low-level indicator is denoted by extending the high-level code with a sub-number, indicating its detailed focus under the broader category, e.g., F3.1 for the first detailed aspect under the third Findability indicator.
 
-!!! example "Examples of Low-level Indicators"
-    F3 (Discoverability) has the following low-level indicators: 
+### Examples of Low-level Indicators
 
-    - F3.1: Discoverability in software registries
-    - F3.2: Discoverability in software repositories
-    - F3.3: Discoverability in literature
+- **F3.1: Discoverability in Software Registries**
+- **F3.2: Discoverability in Software Repositories**
+- **F3.3: Discoverability in Literature**
 
-## Applicability 
+## Applicability
 
-Not all indicators apply to all types of software. Some indicators may be more relevant to certain types of software than others, depending on the nature of the software and its intended use.The FAIRsoft indicators assume two main types of software: "web" and "non-web" software. "Web" software refers to software that is accessed through the web, such as web applications, online tools, and APIs. "Non-web" software refers to software that is installed and run locally on a user's machine, such as desktop applications, command-line tools, and libraries. 
+The relevance of each indicator may vary depending on the software type—whether it's "web" or "non-web":
+- **Web software**: Applications accessed through the web, such as online tools and APIs.
+- **Non-web software**: Applications run locally, like desktop apps and command-line tools.
 
-The applicability of each indicator is indicated in the indicator description. 
-
-!!! example "Examples of applicability of indicators"
-    - A1.1. Existence of an API or Web Interface
-        - Applicability: Web
-    - A1.2. Existance of downloadable and buildable software working version
-        - Applicability: Non-web
-    - I1.1. Use of standard data formats
-        - Applicability: All
-
+### Examples of Applicability
+- **A1.1: Existence of an API or Web Interface** - Applicable to Web.
+- **A1.2: Existence of Downloadable and Buildable Software Version** - Applicable to Non-web.
+- **I1.1: Use of Standard Data Formats** - Applicable to All.
 
 ## Scores and Scoring Method
 
-The indicators can be scored based on the software's compliance with the indicator criteria, with higher scores indicating a higher level of FAIRness. 
+Indicators are scored on a scale from 0 to 1, with 1 representing optimal FAIRness. Each indicator's weight influences the overall FAIRness score, highlighting its importance in the comprehensive assessment.
 
-The scores range from 0 to 1, with 1 being the highest possible score. Each indicator has a different weight that contributes to the total score. The weights reflect the relative importance of each indicator in assessing the overall FAIRness of the software.
+### Scoring Insights
+Scores are instrumental in generating statistics that help evaluate the collective FAIRness of software portfolios, guiding improvements and strategic decision-making. Scores should be understood as a general indication of the software's FAIRness, rather than a definitive assessment
 
-Both low-level indicators and high-level indicators have weights. These weights determine the impact of each indicator on the overall score. The weights can be adjusted based on the specific requirements and priorities of the software evaluation process.
+## Overview of Indicators
 
+The indicators are visualized in a structured diagram that illustrates the connection between high-level indicators and the underlying FAIR principles. The diagram also highlights the weights assigned to each indicator, underscoring their significance in the overall evaluation process.
 
-!!! info "Why scores?"
+### Key Points in the Overview Diagram
+- **Indicator Weights**: Displayed on the connecting arrows in the diagram, influencing the total FAIRness score. The weights of the low-level indicators are not shown in the diagram.
+- **Implementation Status**: Unimplemented indicators are shown in gray to indicate their development status.
+- **Software Type Applicability**: Not all indicators apply universally; specific applicabilities are noted in the diagram legend.
 
-    Scores allow us to calculate statistics and analyze the overall FAIRness of collections of software or individual tools. These statistics help developers and stakeholders identify areas for improvement and make informed decisions about the software's FAIRness.  
-
-    However, scores should be understood as a general indication of the software's FAIRness, rather than a definitive assessment. Since the indicators they are based on may not capture all aspects of FAIRness, it is important to consider the scores in conjunction with other information about the software, such as its intended use, user community, and development context.
-    
-    
-## Overview of Indicators 
-
-The following figure provides an overview of the high-level indicators and their relationships to the FAIR principles. The figure illustrates how the high-level indicators are organized under each principle and how they contribute to the overall assessment of the software's FAIRness. 
-
-!!! tip "Key Points" 
-    - The weights of the high-level indicators are indicated in a rectanguler tag in the arrow that contects the indiator to the principle. As explained before, the weights are used to calculate the overall score of the software based on its compliance with the indicators. 
-    - The weights of the low-level indicators are not shown in the figure, but they are used to calculate the score of the high-level indicators to which they belong. These weights are specified in the respective sections of the indicators, along with a detailed explanation of the rationale for measuring the indicator, the method of measurement, and the types of software to which it applies. 
-    - Indicators that are not yet implemented are shown in gray. 
-    - Not all indicators apply to all types of software. See the legend of the figure for more information on the applicability of each indicator.
-
-
-![Figure](images/Fig1.svg){: width="105%"}
+![Overview of FAIRsoft Indicators](images/Fig1.svg){: width="100%"}
