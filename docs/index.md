@@ -22,7 +22,7 @@ Below are some useful links and resources to help you get started and learn more
 ---
 
 
-**Our Indicators Are Evolving!** 📈
+**Our Indicators are Evolving!**  📈
 
 We are constantly improving and expanding our set of software quality indicators. Contributions from the community are highly encouraged and welcomed. If you have ideas, suggestions, or would like to contribute, please don't hesitate to get involved. Together, we can make a difference in the world of research software quality!
 
