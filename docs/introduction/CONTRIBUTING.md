@@ -19,13 +19,16 @@ Start by understanding the scope and objectives of our project:
 
 ### 2. Explore Existing Issues
 
-Look through the project's [issue tracker](https://github.com/inab/FAIRsoft_indicators/issues) to find ongoing discussions, requests for enhancements, or reports of bugs:
-- Identify areas where you can contribute or propose new ideas.
+Look through the project's [issue tracker](https://github.com/inab/FAIRsoft_indicators/issues) to find ongoing discussions, requests for enhancements, or reports of bugs: 
+
+- Identify areas where you can contribute or propose new ideas. 
+
 - Issues might include suggestions for new indicators, refinements of existing ones, or technical improvements.
 
 ### 3. Submit a New Issue
 
-If you identify a potential improvement or have a new indicator in mind: 
+If you identify a potential improvement or have a new indicator in mind:  
+
 - Submit a [new issue](https://github.com/inab/FAIRsoft_indicators/issues/new) detailing your idea. 
 
 - Provide comprehensive details including the purpose of the indicator, its measurement methodology, and any relevant literature or examples.
