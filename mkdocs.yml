@@ -347,9 +347,7 @@ theme:
   # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#logo                |
   # |                                                                                                      |
   # +------------------------------------------------------------------------------------------------------+
-  icon:
-    logo: 'material/library'
-    repo: 'material/library'
+  logo: static/OEB-logo.png
   
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
