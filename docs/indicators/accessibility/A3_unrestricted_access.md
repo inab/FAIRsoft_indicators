@@ -26,6 +26,10 @@ Unrestricted access removes entry barriers and ensures that a wider audience can
 ### Types it applies to 
 
 - all
+
+### Weight 
+
+- 0.0
  
 --- 
 
@@ -48,6 +52,9 @@ Unrestricted access removes entry barriers and ensures that a wider audience can
 
 - non-web
 
+### Weight 
+
+- 0.25
     
 --- 
 
@@ -68,6 +75,10 @@ Unrestricted access removes entry barriers and ensures that a wider audience can
 ### Types it applies to 
 
 - non-web
+
+### Weight 
+
+- 0.25
 
 ---
 
@@ -90,6 +101,10 @@ Unrestricted access removes entry barriers and ensures that a wider audience can
 
 - non-web
 
+### Weight 
+
+- 0.25
+
 
 ---
 
@@ -111,6 +126,10 @@ Unrestricted access removes entry barriers and ensures that a wider audience can
 ### Types it applies to 
 
 - non-web
+
+### Weight 
+
+- 0.25
 
 --- 
 

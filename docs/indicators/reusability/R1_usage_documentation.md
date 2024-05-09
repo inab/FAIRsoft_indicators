@@ -26,6 +26,9 @@ Usage documentation such as tutorials, use guides, examples of user cases, and '
 
 - all
 
+### Weight 
+
+- 1.0
 
 --- 
 
@@ -48,3 +51,6 @@ Usage documentation such as tutorials, use guides, examples of user cases, and '
 
 - all
 
+### Weight 
+
+- 0.0

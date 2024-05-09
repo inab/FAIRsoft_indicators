@@ -26,6 +26,9 @@ Clear policies and guidelines on contributing to a software project attract and 
 
 - all
 
+### Weight 
+
+- 0.0
 
 --- 
 
@@ -48,3 +51,6 @@ Clear policies and guidelines on contributing to a software project attract and 
 
 - all
 
+### Weight 
+
+- 1.0

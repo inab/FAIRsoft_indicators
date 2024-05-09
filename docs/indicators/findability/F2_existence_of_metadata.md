@@ -25,6 +25,9 @@ Metadata makes it possible to find tools through search engines and decide if th
 
 - all
 
+### Weight 
+- 0.6
+
 --- 
 
 ## F2.2. Existence of standardised metadata 
@@ -38,9 +41,13 @@ Metadata makes it possible to find tools through search engines and decide if th
 - Standardised metadata using consensual terminology simplifies the interpretation and automated processing of software descriptions by ensuring a uniform approach to information representation. This uniformity enhances search efficiency and accuracy, making finding software with specific features easier and faster. 
 
 ### How do we measure it? 
+
 - Use of EDAM and/or Bioschemas to describe the software is considered valid. 
 
 ### Types it applies to
 
 - all
+
+### Weight 
+- 0.4
 

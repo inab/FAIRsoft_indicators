@@ -25,6 +25,10 @@ Research software is usually used with other software as part of a workflow or a
 
 - all
 
+### Weight 
+
+- 0.5
+
 
 
 ---
@@ -47,5 +51,9 @@ Research software is usually used with other software as part of a workflow or a
 ### Types it applies to 
 
 - all
+
+### Weight 
+
+- 0.5
 
  

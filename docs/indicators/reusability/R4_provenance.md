@@ -27,6 +27,9 @@ Explicit version control and documented historical changes facilitate efficient 
 
 - all
 
+### Weight 
+
+- 1.0
 
 ---
 
@@ -49,6 +52,9 @@ Explicit version control and documented historical changes facilitate efficient 
 
 - all
 
+### Weight 
+
+- 0.0
 
 ---
 
@@ -70,4 +76,6 @@ Explicit version control and documented historical changes facilitate efficient 
 
 - all
 
- 
+ ### Weight 
+
+- 0.0

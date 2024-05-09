@@ -26,6 +26,10 @@ Adhering to data format standards and robust data handling practices is critical
 
 - all
 
+### Weight 
+
+- 0.5
+
 --- 
 
 
@@ -46,6 +50,10 @@ Adhering to data format standards and robust data handling practices is critical
 ### Types it applies to
 
 - web
+
+### Weight 
+
+- 0.0
 
 ---  
 
@@ -68,6 +76,11 @@ Adhering to data format standards and robust data handling practices is critical
 
 - non-web
 
+### Weight 
+
+- 0.3
+
+
 --- 
 
  
@@ -89,6 +102,10 @@ Adhering to data format standards and robust data handling practices is critical
 
 - all
 
+### Weight 
+
+- 0.2
+
 ---
 
 
@@ -109,3 +126,7 @@ Adhering to data format standards and robust data handling practices is critical
 ### Types it applies to 
 
 - all
+
+### Weight 
+
+- 0.0

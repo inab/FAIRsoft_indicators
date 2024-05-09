@@ -22,6 +22,8 @@ The uniqueness of an identifier is necessary to unambiguously refer to that reso
 ### Types it applies to
 - all
 
+### Weight 
+- 0.8
 
 --- 
 
@@ -42,6 +44,9 @@ A version of the form X.X is considered valid.
 ### Types it applies to
 
 - all
+
+### Weight 
+- 0.2
 
 
 

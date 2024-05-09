@@ -25,6 +25,10 @@ To match software provenance with analysed data provenance.
 
 - all
 
+### Weight 
+
+- 0.0
+
 
 ---
 
@@ -45,3 +49,7 @@ To match software provenance with analysed data provenance.
 ### Types it applies to
 
 - all
+
+### Weight 
+
+- 0.0

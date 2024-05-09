@@ -3,6 +3,7 @@
 
 How software can be found. There are multitude of mechanisms for scientists looking to find specific software
 
+(*) Scoring of high-level indicator F3 is based on the number of low-level indicators fulfilled: One fulfilled low-level indicator scores 0.7, two fulfilled indicators score 0.85, and fulfillment of all three indicators scores 1.0
 
 --- 
 
@@ -22,6 +23,10 @@ How software can be found. There are multitude of mechanisms for scientists look
 
 ### Types it applies to 
 
+- all 
+
+### Weight 
+- (*)
 
 --- 
 
@@ -43,6 +48,9 @@ An associated software repository (GitHub, GitLab or Bitbucket) is considered va
 
 - all
 
+### Weight 
+- (*)
+
 --- 
 
 ## F3.3. Discoverability in the scientific literature
@@ -62,3 +70,7 @@ An associated software repository (GitHub, GitLab or Bitbucket) is considered va
 ### Types it applies to 
 
 - all
+
+### Weight 
+- (*)
+

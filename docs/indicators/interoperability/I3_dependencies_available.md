@@ -24,6 +24,9 @@ Software dependencies are essential for it to function properly.
 
 - all
 
+### Weight 
+
+- 0.33
 
 ---
 
@@ -46,6 +49,9 @@ Software dependencies are essential for it to function properly.
 
 - all
 
+### Weight 
+
+- 0.33
 
 ---
 
@@ -68,3 +74,7 @@ Software dependencies are essential for it to function properly.
 ### Types it applies to 
 
 - all
+
+### Weight 
+
+- 0.33

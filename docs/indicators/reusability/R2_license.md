@@ -26,6 +26,9 @@ Explicit licenses or terms of use are necessary to provide a clear framework for
 
 - web
 
+### Weight 
+
+- 1.0
 
 --- 
 
@@ -48,3 +51,7 @@ Explicit licenses or terms of use are necessary to provide a clear framework for
 ### Types it applies to
 
 - non-web
+
+### Weight 
+
+- 1.0

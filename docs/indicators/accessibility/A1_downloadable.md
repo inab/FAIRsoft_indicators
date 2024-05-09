@@ -26,6 +26,10 @@ Being able to access the software as a user is the central aspect of Accessibili
 
 - web
 
+### Weight 
+
+- 0.6
+
 --- 
 
 
@@ -48,6 +52,10 @@ Being able to access the software as a user is the central aspect of Accessibili
 
 - non-web
 
+### Weight 
+
+- 0.5
+
 --- 
 
 ## A1.3. Existence of installation instructions 
@@ -68,6 +76,10 @@ Being able to access the software as a user is the central aspect of Accessibili
 ### Types it applies to
 
 - non-web
+
+### Weight 
+
+- 0.2
 
 --- 
 
@@ -90,6 +102,12 @@ Being able to access the software as a user is the central aspect of Accessibili
 
 - all
 
+### Weight 
+
+- web: 0.4 
+
+- non-web: 0.2
+
 --- 
 
     
@@ -110,3 +128,7 @@ Being able to access the software as a user is the central aspect of Accessibili
 ### Types it applies to 
 
 - non-web
+
+### Weight 
+
+- 0.2
