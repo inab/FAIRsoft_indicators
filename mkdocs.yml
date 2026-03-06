@@ -93,8 +93,7 @@ repo_url: https://github.com/inab/FAIRsoft_indicators
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
 nav:
-    - Welcome: index.md
-    - Indicators:
+    - FAIRsoft Indicators:
       - Overview : indicators/index.md
       - Findability:
         - F1. Identity Uniqueness: indicators/findability/F1_identity_uniqueness.md
@@ -113,6 +112,15 @@ nav:
         - R2. Existence of license and/or terms of use: indicators/reusability/R2_license.md
         - R3. Existence of Contribution Recognition and Governance: indicators/reusability/R3_contribution_policy.md
         - R4. Existence of Versioning and Historical Traceabilitye: indicators/reusability/R4_provenance.md
+    - Calculating FAIRsoft indicators:
+      - Overview : calculating_fairsoft_scores/index.md
+      - Interactive evaluation: calculating_fairsoft_scores/fairsoft_evaluator.md
+      - Programmatic evaluation: 
+          - Overview: calculating_fairsoft_scores/programmatic_evaluation/index.md
+          - Quickstart: calculating_fairsoft_scores/programmatic_evaluation/quickstart.md
+          - Evaluate GitHub repositories: calculating_fairsoft_scores/programmatic_evaluation/github-workflow.md
+          - Evaluate existing metadata: calculating_fairsoft_scores/programmatic_evaluation/existing-metadata-workflow.md
+          - Metadata Enrichment: calculating_fairsoft_scores/programmatic_evaluation/metadata-enrichment.md
     - How to contribute: introduction/CONTRIBUTING.md
     - About Us: about.md
 
@@ -292,7 +300,8 @@ theme:
   # +------------------------------------------------------------------------------------------------------+
   features:
     
-    #- content.tabs.link
+    - content.tabs.
+    - content.code.copy
     
 
     
@@ -305,8 +314,8 @@ theme:
   #- header.autohide # Hide header when user scrolls past a specific point.
   
   # Navigation:
-    #- navigation.tabs
-    #- navigation.sections 
+    - navigation.tabs
+    - navigation.sections 
     #- navigation.expand
     - navigation.path
     - navigation.indexes
@@ -498,41 +507,19 @@ extra:
 # | - https://www.mkdocs.org/user-guide/configuration/#markdown_extensions                                 |
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
-markdown_extensions: 
-  - tables 
-  - pymdownx.superfences
+markdown_extensions:
+  - tables
   - attr_list
   - md_in_html
-  - pymdownx.tabbed:
-      alternate_style: true 
-  - markdown.extensions.admonition:
-  - markdown.extensions.codehilite:
+  - admonition
+  - codehilite:
       guess_lang: false
-  - markdown.extensions.toc:
+  - toc:
       permalink: true
-
-  
-  #- pymdownx.arithmex:
-  #- pymdownx.b64:
-  #- pymdownx.betterem:
-  #- pymdownx.caret:
-  #- pymdownx.critic:
-  - pymdownx.details:
-  #- pymdownx.emoji:
-  #- pymdownx.escapeall:
-  #- pymdownx.extra:
-  #- pymdownx.extrarawhtml:
-  #- pymdownx.highlight:
-  #- pymdownx.inlinehilite:
-  #- pymdownx.keys:
-  #- pymdownx.magiclink:
-  #- pymdownx.mark:
-  #- pymdownx.pathconverter:
-  #- pymdownx.progressbar:
-  #- pymdownx.smartsymbols:
-  #- pymdownx.snippets:
-  #- pymdownx.striphtml:
-  - pymdownx.superfences:
+  - pymdownx.superfences
+  - pymdownx.details
   - pymdownx.tabbed:
-  #- pymdownx.tasklist:
-  #- pymdownx.tilde:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
