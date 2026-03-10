@@ -1,22 +1,29 @@
 # About Us
 
-Welcome to our "About Us" page! Here, we provide information about our team and our affiliations.
+We are a team of researchers and developers at the **[Barcelona Supercomputing Center (BSC)](https://www.bsc.es/)** working to improve the quality, visibility, and assessment of research software.
 
-## Our Team
+<div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap; margin: 1.5rem 0 2rem 0;">
 
-We are a dedicated team of researchers and developers passionate about advancing the field of research software quality. Our team is based at the Barcelona Supercomputing Center (BSC), a leading research institution in high-performance computing and computational science.
+  <div style="flex: 2; min-width: 260px;">
+    <h2 style="margin-top: 0;">OpenEBench</h2>
+    <p>
+      This work is developed within <a href="https://openebench.bsc.es/">OpenEBench</a>,
+      a community-driven platform that supports openness, transparency, and reproducibility
+      in research. OpenEBench provides tools and services for benchmarking, evaluating,
+      and analysing scientific software.
+    </p>
+  </div>
 
-## OpenEBench
+  <div style="flex: 1; min-width: 180px; text-align: center;">
+    <img
+      src="https://inab.github.io/FAIRsoft_indicators/static/oeb-logo.png"
+      alt="OpenEBench logo"
+      style="max-width: 100%; height: auto;"
+    />
+  </div>
 
-We are proud to be part of the OpenEBench platform, a community-driven initiative aimed at promoting openness, transparency, and reproducibility in research. OpenEBench provides tools, resources, and guidelines to support researchers in benchmarking and evaluating their scientific software.
+</div> 
 
-## The Software Observatory
+### The Software Observatory
 
-As part of the OpenEBench platform, we are responsible for the Software Observatory, an initiative focused on monitoring and analyzing the landscape of research software. The Software Observatory aims to provide insights into the usage, impact, and evolution of research software across various domains and disciplines.
-
-## Contact Us
-
-If you have any questions, feedback, or would like to collaborate with us, please feel free to reach out to our team:
-
-- **Email:**
-- **GitHub:**
+As part of OpenEBench, we contribute to the **[Software Observatory](https://openebench.bsc.es/observatory/)**, an initiative dedicated to monitoring and analysing the research software ecosystem. The Software Observatory helps provide a clearer picture of how research software is described, shared, maintained, and evaluated across different domains.
