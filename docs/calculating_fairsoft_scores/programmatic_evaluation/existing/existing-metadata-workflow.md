@@ -1,7 +1,8 @@
 
 # Evaluate existing metadata
 
-!!! info ""
+!!! info 
+    
     This workflow is for users who already have software metadata and want to compute **FAIRsoft indicators** directly, without going through GitHub metadata extraction.
 
 
@@ -9,8 +10,6 @@
 
 ```
 Existing metadata
-      ↓
-(Optional) metadata enrichment
       ↓
 FAIRsoft evaluation
       ↓
@@ -21,7 +20,8 @@ In this workflow, metadata is sent directly to the **[Software Observatory evalu
 
 ---
 
-## API endpoint
+
+### API endpoint
 
 Send a `POST` request to:
 
@@ -29,11 +29,15 @@ Send a `POST` request to:
 https://observatory.openebench.bsc.es/api/fair/evaluate
 ```
 
-The request body must contain a `tool_metadata` object.
+The request body must contain a `tool_metadata` object. 
+
+For the  expected structure of this object, see:
+
+→ [Accepted metadata structure](../accepted-metadata-structure.md)
 
 ---
 
-## Minimal request
+### Minimal request
 
 The following is the smallest useful request body for the evaluation API:
 
@@ -51,14 +55,13 @@ The following is the smallest useful request body for the evaluation API:
 }
 ```
 
-This is enough to run the evaluation, although the resulting FAIRsoft scores will depend strongly on the amount of metadata provided.
 
 !!! note
     Minimal metadata allows the evaluation to run, but richer metadata leads to more informative FAIRsoft results.
 
 ---
 
-## Minimal Python example
+### Minimal Python example
 
 ```python
 import requests
@@ -92,7 +95,7 @@ This example shows the essential pattern:
 
 ---
 
-## Richer request example
+### Richer request example
 
 A more complete metadata object may include fields such as `webpage`, `documentation`, `publication`, `license`, `dependencies`, `input`, or `output`.
 
@@ -169,7 +172,7 @@ A more complete metadata object may include fields such as `webpage`, `documenta
 
 ---
 
-## Response structure
+## Understanding the results
 
 The API returns three main components:
 
@@ -214,102 +217,10 @@ This is especially useful when the evaluation is used to guide metadata improvem
 
 ---
 
-## Accepted metadata structure
+## Next steps
 
-The `tool_metadata` object follows the metadata model expected by the evaluation API.
-
-### Commonly used fields
-
-| Field | Type | Notes |
-|------|------|------|
-| `name` | string | Software name |
-| `type` | string or list of strings | Will be coerced to a list internally |
-| `version` | string or list of strings | Will be coerced to a list internally |
-| `description` | list of strings | Free-text descriptions |
-| `label` | list of strings | Alternative names or labels |
-| `repository` | list of URLs | Source code repositories |
-| `webpage` | list of URLs | Project websites or API base URLs |
-| `download` | list of URLs | Download locations |
-| `src` | list of URLs | Source code links |
-| `license` | list of objects | See License structure below |
-| `documentation` | list of objects | See Documentation structure below |
-| `authors` | list of objects | See Person structure below |
-| `publication` | list of objects | See Publication structure below |
-| `dependencies` | list of strings | Declared dependencies |
-| `input` / `output` | list of objects | Controlled terms or formats |
-| `topics` / `operations` | list of objects | Controlled terms |
-| `os` | list of strings | Supported operating systems |
-| `version_control` | boolean | Whether version control is used |
-| `registration_not_mandatory` | boolean | Whether registration is not required |
-| `registries` | list of strings | Known software registries |
-| `e_infrastructures` | list | Referenced e-infrastructures |
-
-### Nested object examples
-
-**License**
-
-```json
-{
-  "name": "Apache License 2.0",
-  "url": "https://opensource.org/licenses/Apache-2.0"
-}
-```
-
-**Documentation**
-
-```json
-{
-  "type": "readme",
-  "url": "https://github.com/adap/flower/blob/main/README.md"
-}
-```
-
-**Person**
-
-```json
-{
-  "name": "Jane Doe",
-  "type": "person",
-  "email": "jane@example.org",
-  "maintainer": true
-}
-```
-
-**Publication**
-
-```json
-{
-  "title": "Example software paper",
-  "year": 2023,
-  "doi": "10.1234/example"
-}
-```
-
-**Controlled term**
-
-Used for fields such as `topics`, `operations`, `input`, and `output`.
-
-```json
-{
-  "term": "CSV",
-  "vocabulary": "EDAM",
-  "uri": "http://edamontology.org/format_3752"
-}
-``` 
-
-??? info "JSON schema"
-    The full JSON schema for `tool_metadata` is available in the API documentation.
+- See [Accepted metadata structure](../accepted-metadata-structure.md)￼for the expected input format
+- See [Metadata enrichment](../metadata-enrichment.md)￼for guidance on improving incomplete metadata
 
 
-### Notes on accepted values
-
-A few model behaviors are useful to know:
-
-- `type` may be provided as a single string or a list of strings
-- `version` may be provided as a single string or a list of strings
-- empty strings in some optional fields are filtered out
-- many fields are optional, but missing metadata will reduce the informativeness of the evaluation
-
-!!! note
-    If you only need a simple evaluation, a minimal object with `name`, `type`, and `repository` is often enough to get started.
 

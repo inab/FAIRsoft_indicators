@@ -1,6 +1,7 @@
 # Quickstart
 
-This quickstart shows how to compute **FAIRsoft scores for multiple GitHub repositories** using the Software Observatory APIs.
+!!! info
+    This quickstart shows how to compute **FAIRsoft scores for multiple GitHub repositories** using the Software Observatory APIs.
 
 ## Requirements
 
@@ -10,7 +11,7 @@ Install the required Python packages:
 pip install requests pandas
 ```
 
-You will also need a **GitHub personal access token**.
+You will also need a **[GitHub personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#about-personal-access-tokens)** with read permisions for repositories.
 
 --- 
 
@@ -108,5 +109,7 @@ Example output:
 
 ### Next step 
 
-To better understand how the metadata extraction and evaluation work, continue with the [full workflow tutorial](./github-workflow.md).
+To better understand how the metadata extraction and evaluation work, continue with:
+
+- **[Full workflow tutorial](./github-workflow.md)**
 

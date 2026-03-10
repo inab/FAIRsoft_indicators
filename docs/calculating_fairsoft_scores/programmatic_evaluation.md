@@ -200,7 +200,9 @@ This API builds Observatory-compatible metadata by querying GitHub and inspectin
 
 
 
-By checking the GitHub APIs and the repositoruy contents like the presence and content of `docs/` directory, `requirements.txt` file, `README` file, `CFF` file, etc. 
+!!! note
+The GitHub Metadata API provides a useful starting point, but the resulting metadata is often incomplete for FAIRsoft evaluation. Manual enrichment is usually needed for the best results.
+
 
 ## 2. Clean the data 
 
@@ -285,24 +287,32 @@ The evaluation response contains three main components.
 
 ### Result
 
-The `result` field contains the computed indicators. 
+The `result` field contains the computed FAIRsoft scores and lower-level indicators
 
-Example: 
-```
+Example fields include: 
 
-```
+- F, A, I, R: the four main FAIRsoft dimensions
+- F1, F2, F3, A1, I1, R2, etc.: principle-level indicators
+- F1_1, F1_2, A1_3, etc.: lower-level checks used to compute the indicators
+- basic metadata fields such as name, type, and version 
 
-These correspond to the four FAIR dimensions. 
-Additional lower-level indicators are also included. 
+For example: 
+- F = 0.8 means the software scores well overall on Findability
+- R = 0.8 means it also performs well overall on Reusability
+- lower-level booleans such as F1_1 = `true` indicate whether specific checks passed
+
+You will often use F, A, I, and R for comparisons, while the lower-level indicators are useful for deeper inspection.
 
 ### Logs 
 
 The `logs` field provides explanations for each indicator.
 
-Logs describe:
-- which metadata fields were used
-- which checks were performed
-- which indicators could not be computed
+The value is a list of messages describing: 
+- what was checked
+- which metadata fields were inspected
+- why the indicator passed or failed
+- whether the indicator was not applicable or not currently measured
+
 
 This information is useful for:
 - debugging evaluations
@@ -312,7 +322,23 @@ This information is useful for:
 
 ### Feedback
 
-The `feedback` field provides strenghts (`feedback.X.strenghts`) and actionable points for improvement (`feedback.X.improvements`) based on the results for each principle (`F`,`A`, `I`, `R`). 
+The feedback field provides short human-readable guidance for each FAIR principle (F, A, I, R).
+
+For each principle, it includes: 
+
+- `strengths`: positive aspects already supported by the metadata
+- i`mprovements`: concrete suggestions to improve the score
+
+For example, feedback may suggest:
+
+- registering the tool in software registries
+- adding standard ontologies
+- improving installation instructions
+- declaring dependencies
+- exposing a library or API
+- adding release and contribution policies
+
+This field is especially useful when the tutorial is used not only for scoring, but also for identifying actionable improvements.
 
 ## Tips
 

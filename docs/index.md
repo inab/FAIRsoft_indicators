@@ -10,12 +10,11 @@ They provide a practical way to measure software FAIRness from available metadat
 ## Calculating FAIRsoft indicators
 
 FAIRsoft indicators can be calculated in different ways depending on your workflow.
+ 
+- **[Interactive evaluation](./calculating_fairsoft_scores/interactive_evaluation.md)**: compute FAIRsoft indicators for individual software tools through a graphical interface. 
 
-- **Interactive evaluation**: compute FAIRsoft indicators for individual software tools through a graphical interface. 
+- **[Programmatic evaluation](./calculating_fairsoft_scores/programmatic_evaluation/index.md)**:  compute FAIRsoft indicators programmatically for one or several GtHub repositories or for your metadata.
 
-- **Programmatic evaluation**:  compute FAIRsoft indicators programmatically for one or several GtHub repositories.
-
-→ **[Learn more in the tutorials](./calculating_fairsoft_scores/index.md)**
 
 
 ---
@@ -29,7 +28,7 @@ Community feedback and contributions play an important role in improving the ind
 
 If you are interested in contributing to the project, please review the contribution guidelines.
 
-→ [Contributing Guidelines](./CONTRIBUTING.md)
+→ **[Contributing Guidelines](./CONTRIBUTING.md)**
 
 
 --- 

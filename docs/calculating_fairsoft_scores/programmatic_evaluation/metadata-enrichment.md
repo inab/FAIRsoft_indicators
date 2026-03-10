@@ -1,6 +1,17 @@
 # Metadata enrichment
 
-Metadata extracted automatically from GitHub is not complete enought to calculate all FAIRsoft indicators.
+Metadata extracted automatically or provided manually is often incomplete for FAIRsoft evaluation. Enrichment helps produce more informative results and more useful feedback.
+
+
+!!! note "When enrichment is useful"
+
+    You may want to enrich metadata when:
+
+    - important fields are missing
+    - some fields are present but too generic
+    - metadata needs to reflect additional documentation, publications, formats, or dependencies
+    - you want a more informative FAIRsoft assessment
+
 
 ## Common fields to enrich
 
@@ -14,30 +25,63 @@ Typical metadata fields include:
 - publications
 - download links
 
-Example enrichment:
+## Example
 
-```python
-metadata["type"] = "lib"
-metadata["webpage"] = ["https://flower.ai"]
+A minimal metadata object:
+
+```json
+{
+  "name": "Flower",
+  "type": "lib",
+  "repository": [
+    "https://github.com/adap/flower"
+  ],
+  "version_control": true
+}
 ```
 
+can be enriched with additional information such as: 
 
-### Allowed values for type 
-
-```
-cmd       // command-line application
-web       // web application
-db        // database
-app
-lib
-workflow
-plugin
-rest
-sparql
-suite
-workbench
-script
-ontology
-soap
+```json
+{
+  "name": "Flower",
+  "type": ["lib"],
+  "repository": [
+    "https://github.com/adap/flower"
+  ],
+  "webpage": [
+    "https://flower.ai"
+  ],
+  "version_control": true,
+  "license": [
+    {
+      "name": "Apache License 2.0",
+      "url": "https://opensource.org/licenses/Apache-2.0"
+    }
+  ],
+  "documentation": [
+    {
+      "type": "readme",
+      "url": "https://github.com/adap/flower/blob/main/README.md"
+    }
+  ],
+  "input": [
+    {
+      "term": "CSV",
+      "vocabulary": "EDAM"
+    }
+  ],
+  "output": [
+    {
+      "term": "model",
+      "vocabulary": "EDAM"
+    }
+  ]
+}
 ``` 
 
+## Related pages 
+
+- See [Accepted metadata structure](accepted-metadata-structure.md)￼ for the expected metadata format
+- See [Evaluate existing metadata](./existing/quickstart.md)￼ to send metadata directly for FAIRsoft evaluation
+- See [GitHub full workflow](./github/quickstart.md)￼ to enrich metadata extracted from repositories

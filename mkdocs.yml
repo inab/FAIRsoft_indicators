@@ -45,7 +45,7 @@ site_author: 'evamart'
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
 copyright: |
-  &copy; Author
+  &copy; BSC-CNS 2026
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
@@ -75,8 +75,8 @@ docs_dir: docs/
 # | - https://www.mkdocs.org/user-guide/configuration/#edit_uri                                            |
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
-repo_name: inab/FAIRsoft_indicators
-repo_url: https://github.com/inab/FAIRsoft_indicators
+#repo_name: inab/FAIRsoft_indicators
+#repo_url: https://github.com/inab/FAIRsoft_indicators
 #edit_uri: tree/master/docs # Uncomment to define a different URI/URL for the "edit" option
 
 # +--------------------------------------------------------------------------------------------------------+
@@ -113,14 +113,19 @@ nav:
         - R3. Existence of Contribution Recognition and Governance: indicators/reusability/R3_contribution_policy.md
         - R4. Existence of Versioning and Historical Traceabilitye: indicators/reusability/R4_provenance.md
     - Calculating FAIRsoft indicators:
-      - Overview : calculating_fairsoft_scores/index.md
-      - Interactive evaluation: calculating_fairsoft_scores/fairsoft_evaluator.md
+      - Interactive evaluation: 
+        - The FAIRsoft Evaluator: calculating_fairsoft_scores/interactive_evaluation.md
       - Programmatic evaluation: 
-          - Overview: calculating_fairsoft_scores/programmatic_evaluation/index.md
-          - Quickstart: calculating_fairsoft_scores/programmatic_evaluation/quickstart.md
-          - Evaluate GitHub repositories: calculating_fairsoft_scores/programmatic_evaluation/github-workflow.md
-          - Evaluate existing metadata: calculating_fairsoft_scores/programmatic_evaluation/existing-metadata-workflow.md
+          - Overview: calculating_fairsoft_scores/programmatic_evaluation/overview.md
+          - Evaluate existing metadata:
+            - Quickstart: calculating_fairsoft_scores/programmatic_evaluation/existing/quickstart.md
+            - Full workflow: calculating_fairsoft_scores/programmatic_evaluation/existing/existing-metadata-workflow.md
+          - Evaluate GitHub repositories:
+            - Quickstart: calculating_fairsoft_scores/programmatic_evaluation/github/quickstart.md
+            - Full workflow: calculating_fairsoft_scores/programmatic_evaluation/github/github-workflow.md
           - Metadata Enrichment: calculating_fairsoft_scores/programmatic_evaluation/metadata-enrichment.md
+          - Accepted Metadata Structure: calculating_fairsoft_scores/programmatic_evaluation/accepted-metadata-structure.md
+          
     - How to contribute: introduction/CONTRIBUTING.md
     - About Us: about.md
 
@@ -450,7 +455,7 @@ extra:
   # +------------------------------------------------------------------------------------------------------+
   social:
     - icon: 'fontawesome/brands/github'
-      link: 'https://github.com/inab/FAIRsoft_indicators'
+      link: 'https://github.com/inab'
   
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |

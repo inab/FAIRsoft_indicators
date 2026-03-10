@@ -1,12 +1,45 @@
 # Evaluate GitHub repositories
 
-!!! info ""
+!!! info 
     This tutorial explains each step involved in programmatic FAIRsoft evaluation given one or more GitHub repositories.
 
 
-## 1. Retrieve repository metadata
+## Evaluation Workflow 
 
-Metadata is extracted from GitHub using the **[GitHub Metadata API](https://observatory.openebench.bsc.es/github-metadata-api/api-docs/)**.
+In this workflow, metadata is first extracted automatically from a GitHub repository. It can then be reviewed, enriched, and used to compute FAIRsoft indicators.
+
+```
+GitHub repository URL
+        ↓
+1. Metadata extraction
+        ↓
+2. (Optional) metadata review and enrichment
+        ↓
+3. FAIRsoft evaluation
+        ↓
+Scores, logs and feedback
+``` 
+
+
+
+## Requirements 
+
+To run this workflow, you will need:
+
+- **Python 3.9+**
+- The Python **`requests`** library. You can install it with:
+    ```bash
+    pip install requests
+    ```
+- A **[GitHub personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#about-personal-access-tokens)** with read permissions for repositories
+- One or more GitHub repository URLs
+
+The token is used by the [GitHub Metadata REST API](https://observatory.openebench.bsc.es/github-metadata-api/api-docs/) to access repository information and inspect repository contents needed for metadata extraction.
+
+
+## 1. Extract repository metadata
+
+Metadata is extracted from GitHub using the [GitHub Metadata API](https://observatory.openebench.bsc.es/github-metadata-api/api-docs/).
 
 ```python
 def get_repository_metadata(owner, repo):
@@ -23,6 +56,10 @@ def get_repository_metadata(owner, repo):
 
     return response.json()["data"] 
 ``` 
+
+!!! note
+    The **GitHub Metadata API** is not GitHub’s official API. It is a higher-level service that extracts FAIR-relevant metadata from repositories. 
+
 
 ??? note "Metadata extraction under the hood"
     The GitHub Metadata API extracts information such as:
@@ -48,19 +85,19 @@ def get_repository_metadata(owner, repo):
 
 ## 2. Enrich metadata 
 
-!!! info ""
-    The extracted metadata is often incomplete for FAIRsoft evaluation and may require manual enrichment. 
+!!! warning 
+    The extracted metadata is often incomplete for a full FAIRsoft evaluation and may require manual enrichment. 
 
 
 Typical fields that may need enrichment include: `type`, `webpage`, `dependencies`, `input`, `output`, `os`, `publication`, `download` and `test`.
 
 See the detailed guide on how to (manually) enrich metadata: 
 
-→ [Metadata enrichment guide]()
+→ [Metadata enrichment guide](metadata-enrichment.md)
 
 ## 3. Compute FAIRsoft indicators  
 
-Once metadata is ready, it can be sent to the Software Observatory API.
+Once metadata is ready, it can be sent to the [Software Observatory evaluation REST API](https://observatory.openebench.bsc.es/api/docs).
 
 ```python
 def compute_fairsoft(metadata):
