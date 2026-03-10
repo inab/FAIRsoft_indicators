@@ -1,0 +1,15 @@
+:root {
+    --md-primary-fg-color:        #396FBA;
+    --md-primary-fg-color--light: #6495D8;
+    --md-primary-fg-color--dark:  #4382D8;
+  }
+
+.md-sidebar--primary .md-nav__link {
+  line-height: 1.45;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.md-sidebar--primary .md-nav__item {
+  margin-bottom: 0.15rem;
+}

@@ -1,0 +1,13 @@
+@import "extensions/tabbed.css";
+
+.body {
+    font-size: small;
+}
+
+:root {
+    --md-primary-fg-color:        #396FBA;
+    --md-primary-fg-color--light: #6495D8;
+    --md-primary-fg-color--dark:  #4382D8;
+    --md-accent-fg-color:         #FB7B1A;
+
+  }
