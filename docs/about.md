@@ -1,16 +1,16 @@
 # About Us
 
-We are a team of researchers and developers at the **[Barcelona Supercomputing Center (BSC)](https://www.bsc.es/)** working to improve the quality, visibility, and assessment of research software.
+This project is developed by the **Technologies for Biomedical Research** group at the **[Barcelona Supercomputing Center (BSC)](https://www.bsc.es/)** and focuses on improving the quality, visibility, and assessment of research software.
 
 <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap; margin: 1.5rem 0 2rem 0;">
 
   <div style="flex: 2; min-width: 280px;">
-    <h2 style="margin-top: 0;">OpenEBench</h2>
+    <h2 style="margin-top: 0;">The Software Observatory</h2>
     <p>
-      This work is developed within <a href="https://openebench.bsc.es/">OpenEBench</a>,
-      a community-driven platform that supports openness, transparency, and reproducibility
-      in research. OpenEBench provides tools and services for benchmarking, evaluating,
-      and analysing scientific software.
+        This work is developed within <b><a href="https://openebench.bsc.es/">OpenEBench</a></b>, a community-driven platform for benchmarking, evaluating, and analysing scientific software in support of open and reproducible research. 
+    </p>
+    <p>
+        Within OpenEBench, it has specifically been developed as part of the <b><a href="https://openebench.bsc.es/observatory/">Software Observatory</a></b>, which focuses on monitoring and analysing the research software ecosystem.
     </p>
   </div>
 
@@ -24,6 +24,3 @@ We are a team of researchers and developers at the **[Barcelona Supercomputing C
 
 </div> 
 
-### The Software Observatory
-
-As part of OpenEBench, we contribute to the **[Software Observatory](https://openebench.bsc.es/observatory/)**, an initiative dedicated to monitoring and analysing the research software ecosystem. The Software Observatory helps provide a clearer picture of how research software is described, shared, maintained, and evaluated across different domains.
