@@ -13,7 +13,7 @@ FAIRsoft indicators can be calculated in different ways depending on your workfl
  
 - **[Interactive evaluation](./calculating_fairsoft_scores/interactive_evaluation.md)**: compute FAIRsoft indicators for individual software tools through a graphical interface. 
 
-- **[Programmatic evaluation](./calculating_fairsoft_scores/programmatic_evaluation/index.md)**:  compute FAIRsoft indicators programmatically for one or several GtHub repositories or for your metadata.
+- **[Programmatic evaluation](./calculating_fairsoft_scores/programmatic_evaluation/overview.md)**:  compute FAIRsoft indicators programmatically for one or several GtHub repositories or for your metadata.
 
 
 
