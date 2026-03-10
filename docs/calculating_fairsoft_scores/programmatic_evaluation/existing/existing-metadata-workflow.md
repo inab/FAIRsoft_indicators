@@ -5,6 +5,9 @@
     
     This workflow is for users who already have software metadata and want to compute **FAIRsoft indicators** directly, without going through GitHub metadata extraction.
 
+??? info "Jupyter notebook"
+    Download the jupyter notebook of this tutorial [here](https://github.com/inab/FAIRsoft_indicators/blob/master/notebooks/existing-metadata-workflow.ipynb)
+
 
 ## Evaluation workflow
 

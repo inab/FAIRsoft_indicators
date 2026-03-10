@@ -3,6 +3,10 @@
 !!! info
     This quickstart shows how to compute **FAIRsoft scores for multiple GitHub repositories** using the Software Observatory APIs.
 
+??? info "Jupyter notebook"
+    Download the jupyter notebook of this quickstart [here](https://github.com/inab/FAIRsoft_indicators/blob/master/notebooks/github-quickstart.ipynb)
+
+
 ## Requirements
 
 Install the required Python packages:

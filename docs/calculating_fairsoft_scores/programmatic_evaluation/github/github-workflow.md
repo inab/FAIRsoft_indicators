@@ -3,6 +3,10 @@
 !!! info 
     This tutorial explains each step involved in programmatic FAIRsoft evaluation given one or more GitHub repositories.
 
+??? info "Jupyter notebook"
+    Download the jupyter notebook of this tutorial [here](https://github.com/inab/FAIRsoft_indicators/blob/master/notebooks/github-workflow.ipynb)
+
+
 
 ## Evaluation Workflow 
 

@@ -3,6 +3,9 @@
 !!! info
     This quickstart shows how to compute **FAIRsoft scores for multiple software tools** starting from existing metadata.
 
+??? info "Jupyter notebook"
+    Download the jupyter notebook of this quickstart [here](https://github.com/inab/FAIRsoft_indicators/blob/master/notebooks/existing-metadata-quickstart.ipynb)
+
 ## Requirements
 
 Install the required Python packages:
