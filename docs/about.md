@@ -4,7 +4,7 @@ We are a team of researchers and developers at the **[Barcelona Supercomputing C
 
 <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap; margin: 1.5rem 0 2rem 0;">
 
-  <div style="flex: 2; min-width: 260px;">
+  <div style="flex: 2; min-width: 280px;">
     <h2 style="margin-top: 0;">OpenEBench</h2>
     <p>
       This work is developed within <a href="https://openebench.bsc.es/">OpenEBench</a>,
@@ -14,11 +14,11 @@ We are a team of researchers and developers at the **[Barcelona Supercomputing C
     </p>
   </div>
 
-  <div style="flex: 1; min-width: 180px; text-align: center;">
+  <div style="flex: 1; min-width: 120px; text-align: center;">
     <img
-      src="https://inab.github.io/FAIRsoft_indicators/static/oeb-logo.png"
+      src="https://inab.github.io/FAIRsoft_indicators/static/oeb.png"
       alt="OpenEBench logo"
-      style="max-width: 100%; height: auto;"
+      style="max-width: 80%; height: auto;"
     />
   </div>
 
