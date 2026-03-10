@@ -6,7 +6,7 @@ The FAIRsoft Evaluator guides you through the evaluation of an individual softwa
 
 <figure style="margin: 1.5rem 0; text-align: center;">
   <img
-    src="../static/evaluator-screenshot.png"
+    src="../../../static/evaluator-screenshot.png"
     alt="Software Evaluator page"
     style="max-width: 100%; height: auto; border-radius: 6px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);"
   />
